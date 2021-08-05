@@ -21,6 +21,10 @@ const TipWalletSchema = new mongoose.Schema({
     balance: {
         type: Number,
         required: true
+    },
+    defaultTipAmount:{
+        type: Number,
+        required: true
     }
 },{timestamps: true});
 
